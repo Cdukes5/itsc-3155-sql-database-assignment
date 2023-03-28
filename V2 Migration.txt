@@ -1,0 +1,8 @@
+V2 Migration
+
+There are two changes in V2.
+
+-A user can make more than one playlist and the account type of the user is stored. 
+Make the playlist attribute excluded from composite primary key in the user table.
+
+-Add a new attribute called account_type in the user table.
